@@ -11,16 +11,15 @@
      - itsyBitsy M0 Express, 
      - Feather M0 Express, 
 
-   23/07/2020:
-    updated to work with the current version of the Adafruit_SPIFlash library.
-    Not tested but could probably be modified to function with an SD card.
-    For use with an SD card refer to https://github.com/hydronics2/SamdAudio
+   23/07/2023:
+    Updated to work with the current version of the Adafruit_CPFS library.
+    This library require that CircuitPython is first loaded on the Feather M0 Express.
+    Once executed files can be uploaded from an attached computer to the CircuitPython "drive".
+    The computer sees that attached Feather as a USB flash card.
     
-     - Will not work with Adafruit Feather M4 Express and other boards with the SAMD51 processor 
+     - Will not compile with Adafruit Feather M4 Express and other boards with the SAMD51 processor 
 
-    Read this great description in the Adafruit tutorial for getting the WAV files onto your Adafruit M0 Express board
-    https://learn.adafruit.com/introducing-itsy-bitsy-m0?view=all#using-spi-flash
-    Thanks to Tondy Dicola and Adafruit for making this so easy!
+    
 
 */
 

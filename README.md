@@ -1,7 +1,7 @@
 ### Arduino Audio Library for Adafruit Feather M0 Express SAMD21
 
 ### Update: As at July 2023 this library does not function with the current release of the Adafruit libraries and the core software for the Adafruit Feather M0 Express.
-I have tried using earlier versions of the Adafruit libraries without success and for this reason suspect a conflict in the core software.The WAV files are oppened with success but the only sound produced is a continuous ratchet sound and the code seems to loop and eventually block the serial USB thereby requiring a reset of the card.
+I have tried using earlier versions of the Adafruit libraries without success and for this reason suspect a conflict in the core software.The WAV files are opened with success but the only sound produced is a continuous ratchet sound and the code seems to loop and eventually block the serial USB thereby requiring a reset of the card.
 Since the library in a slightly different form functions with an SD card the issue would seem to relate to the use of the SPIFlash memory and/or Library.
 
 If anyone is able to get it functioning I would appreciate hearing about it.

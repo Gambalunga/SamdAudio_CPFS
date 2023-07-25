@@ -9,12 +9,12 @@ If anyone is able to get it functioning I would appreciate hearing about it.
 Gambalunga
 
 ### Update: 
-    This version updated to work with the current version of the Adafruit_CPFS library.
-    This library require that CircuitPython is first loaded on the Feather M0 Express.
-    Once executed files can be uploaded from an attached computer to the CircuitPython "drive".
-    The computer sees that attached Feather as a USB flash card.
+This version updated to work with the current version of the Adafruit_CPFS library.
+This library require that CircuitPython is first loaded on the Feather M0 Express.
+Once executed files can be uploaded from an attached computer to the CircuitPython "drive".
+The computer sees that attached Feather as a USB flash card.
 
-A branch of the SamdAudio library https://github.com/hydronics2/SamdAudio/ that has been updated to function with the current Adafruit_SPIFlash library https://github.com/adafruit/Adafruit_SPIFlash
+A branch of the SamdAudio library https://github.com/hydronics2/SamdAudio/ that has been updated to function with the current Adafruit_CPFS library [https://github.com/adafruit/Adafruit_CPFS](https://github.com/adafruit/Adafruit_CPFS)
 
 This polyphonic library allows you to play WAV files from SPI Flash to the 10bit DAC of a SAMD21 (Pin A0 on many boards). 
 Plays up to ~4 WAV files simultaneously.

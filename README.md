@@ -43,4 +43,6 @@ Read this great description in the Adafruit tutorial for getting the WAV files o
 https://learn.adafruit.com/introducing-itsy-bitsy-m0?view=all#using-spi-flash 
 Thanks to Tony Dicola and Adafruit for making this so easy!
 
+NB: Using Adafruit_CPFS library you can upload files directly to the Adafruit M0 Express board after the sketch is running. An attached computer will see the CircuitPython flash memory as a USB flash drive.
+
 Flash example included in the examples folder. 
